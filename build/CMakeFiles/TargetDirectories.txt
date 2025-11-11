@@ -1,0 +1,3 @@
+/home/deymon/Documents/cpp-projects/calc/build/CMakeFiles/exec.dir
+/home/deymon/Documents/cpp-projects/calc/build/CMakeFiles/edit_cache.dir
+/home/deymon/Documents/cpp-projects/calc/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/deymon/Documents/cpp-projects/calc/build",
+  "command": "/usr/sbin/c++  -I/home/deymon/Documents/cpp-projects/calc/src  -o CMakeFiles/exec.dir/src/calc.cpp.o -c /home/deymon/Documents/cpp-projects/calc/src/calc.cpp",
+  "file": "/home/deymon/Documents/cpp-projects/calc/src/calc.cpp",
+  "output": "CMakeFiles/exec.dir/src/calc.cpp.o"
+}
+]

@@ -9,10 +9,6 @@
 
 using namespace std;
 
-string IdkSomeFunc(string c){
-	stringstream ss(c);
-	
-}
 
 // parser -----[[
 // this shit takes input and returns its whith tokens separeted by spaces

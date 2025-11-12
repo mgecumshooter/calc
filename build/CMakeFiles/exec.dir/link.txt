@@ -1,1 +1,0 @@
-/usr/sbin/c++ -Wl,--dependency-file=CMakeFiles/exec.dir/link.d CMakeFiles/exec.dir/src/calc.cpp.o -o exec

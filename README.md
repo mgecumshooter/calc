@@ -1,8 +1,8 @@
 # calc
 Very stoopid calculator writen in c++ (my first working project)
 
-if you, for some reason, want to test it you need first to install cmake,
-then go to 'build' directory and type 'cmake --build' in terminal. it will 
-generate 'exec' executable file.
+
+just build it with some cpp compiler. it does not have any dependecies
+
 
 this calculator supports only '+','-','*','/','^' and expressions in brackets '()'

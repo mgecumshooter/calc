@@ -9,6 +9,38 @@
 
 using namespace std;
 
+string IdkSomeFunc(string c){
+	stringstream ss(c);
+	
+}
+
+// parser -----[[
+// this shit takes input and returns its whith tokens separeted by spaces
+string parser(string c){
+	string hui;
+	for (char p: c){
+		switch (p){
+			case ' ':
+				continue;
+			case '+':
+			case '-':
+			case '*':
+			case '/':
+			case '^':
+			case '(':
+			case ')':
+				hui += ' ';
+				hui +=	p;
+				hui += ' ';
+				break;
+			default:
+				hui += p;
+		}
+	}
+	return hui;
+}
+// -----]]
+
 // isOperator ----- [[
 bool isOperator (char c){
 	return c == '+' || c == '-' || c == '*' || c == '/' || c == '^';
@@ -55,7 +87,7 @@ double applyOp (double a, double b, char op){
 double doMath (const string& expr){
 	stack<double> num;
 	stack<char> op;
-	stringstream ss(expr);
+	stringstream ss(parser(expr));
 	string hui;
 
 	while (getline(ss, hui, ' ')){

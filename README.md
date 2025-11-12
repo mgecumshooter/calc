@@ -6,4 +6,3 @@ then go to 'build' directory and type 'cmake --build' in terminal. it will
 generate 'exec' executable file.
 
 this calculator supports only '+','-','*','/','^' and expressions in brackets '()'
-type all operands and operators through spaces, otherwice it will crash
